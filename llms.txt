@@ -1,0 +1,15 @@
+# Chrome DevTools Session MCP
+
+Chrome DevTools Session MCP is a hosted remote MCP for AI agent browser DevTools MCP.
+
+Website: https://chromedevtoolsmcp.clauxel.com/
+Docs pattern reference: https://github.com/clauxel/MiroFish
+Primary keyword: AI agent browser DevTools MCP
+Type: MCP
+Default plan: team
+MCP endpoint: https://chromedevtoolsmcp.clauxel.com/mcp
+Server card: https://chromedevtoolsmcp.clauxel.com/server-card.json
+Registry name: com.clauxel.chromedevtoolsmcp/chromedevtoolsmcp-mcp
+Tools: inspect_page_state, read_console_errors, summarize_network_waterfall, export_devtools_receipt
+
+Public boundary: docs-only repository; no production source code or secrets.
