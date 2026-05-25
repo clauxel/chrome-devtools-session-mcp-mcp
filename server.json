@@ -1,0 +1,31 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.clauxel.chromedevtoolsmcp/chromedevtoolsmcp-mcp",
+  "description": "Chrome DevTools Session MCP is a hosted remote MCP for AI agent browser DevTools MCP.",
+  "version": "1.0.0",
+  "website_url": "https://chromedevtoolsmcp.clauxel.com/",
+  "repository": {
+    "url": "https://github.com/clauxel/chrome-devtools-session-mcp-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://chromedevtoolsmcp.clauxel.com/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer token from the product website.",
+          "is_required": true,
+          "is_secret": true
+        }
+      ]
+    }
+  ],
+  "_meta": {
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "title": "Chrome DevTools Session MCP MCP",
+      "server_card_url": "https://chromedevtoolsmcp.clauxel.com/server-card.json"
+    }
+  }
+}
