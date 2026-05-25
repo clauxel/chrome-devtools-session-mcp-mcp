@@ -1,0 +1,25 @@
+{
+  "error": "Error: server card fetch failed 522",
+  "fallback": {
+    "slug": "chromedevtoolsmcp",
+    "name": "Chrome DevTools Session MCP",
+    "website": "https://chromedevtoolsmcp.clauxel.com/",
+    "endpoint": "https://chromedevtoolsmcp.clauxel.com/mcp",
+    "serverCard": "https://chromedevtoolsmcp.clauxel.com/.well-known/mcp/server-card.json",
+    "registryName": "com.clauxel.chromedevtoolsmcp/chromedevtoolsmcp-mcp",
+    "tools": [
+      "inspect_page_state",
+      "read_console_errors",
+      "summarize_network_waterfall",
+      "export_devtools_receipt"
+    ],
+    "docsRepo": "chrome-devtools-session-mcp-mcp",
+    "docs": "https://github.com/clauxel/chrome-devtools-session-mcp-mcp",
+    "packageName": "@clauxel/chromedevtoolsmcp-mcp",
+    "directoryName": "chromedevtoolsmcp-mcp",
+    "category": "Browser Automation",
+    "tagline": "Hosted MCP for AI agent browser DevTools MCP.",
+    "description": "Chrome DevTools Session MCP is a paid remote MCP endpoint for AI agent browser DevTools MCP. It exposes structured JSON tools, a public server card, token-based access, usage receipts, and audit-ready workflow evidence for AI agents and coding teams.",
+    "icon": "https://chromedevtoolsmcp.clauxel.com/favicon.svg"
+  }
+}
